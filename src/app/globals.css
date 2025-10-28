@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+main {
+  @apply min-h-screen;
+}
+
+::selection {
+  background-color: theme('colors.brandTeal.200');
+}
+
+input, select, textarea {
+  @apply border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brandTeal-400 focus:border-transparent rounded-md px-3 py-2 transition;
+}
+
+label {
+  @apply text-sm font-medium text-slate-700;
+}
+
+button {
+  @apply rounded-md font-semibold;
+}
