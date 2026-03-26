@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #f7f4ef;
+  background-color: #060606;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #060606;
+  color: #f7f4ef;
+}
+
+* {
+  box-sizing: border-box;
+}
